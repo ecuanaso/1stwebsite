@@ -1,0 +1,284 @@
+@import url(http://fonts.googleapis.com/css?family=Playball);
+
+body {
+  padding-top: 65px;
+  font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #676767;
+  background-color: #F9F7EB;
+  position: relative;
+}
+
+/*  NAVIGATION */
+
+.navbar {
+	background-color: #ED3E87;
+    border: double 1px #F9F7EB;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color:#ED3E87; 
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-toggle {
+    border:none;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #D8779E;
+    background-image:linear-gradient(#ED3E87, #D8779E);
+    border: 0.5px solid #dedede;
+}
+
+.navbar-inverse .navbar-collapse{
+    border-color: #dedede;
+   
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-family: "Playball";
+    font-size: 28px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #BCBABA;
+	font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 50px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.nav > li > a:hover {
+    background-color: #ED3E87;
+    color: #FACFE7;
+}
+
+/* ABOUT */
+
+.simple-block {
+    padding: 20px 0px 280px;
+}
+
+.simple-block h1 {
+    font-family: "Gabriela";
+    color: #1B1F23;
+    text-align: center;
+    line-height: 54px;
+    letter-spacing: -0.05em;
+    margin: 2px 0px 20px;
+    padding-top: 50px;
+}
+
+.simple-block p {
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+}
+
+/* JUMBOTRON */
+
+.materials {
+    color: #333;
+    background: url('../img/broadway.jpg') no-repeat fixed center center / cover transparent;
+    width: 120%;
+}
+.jumbotron {
+    width: 102%;
+    height: 100%;
+    padding: 180px 0px 180px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: rgba(249, 244, 230, 0.5);
+    color: #333;
+}
+
+.jumbotron p {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+    font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #676767;
+    font-weight: bold;
+}
+
+/* GALLERY */
+
+.mygallery {
+    background-color: #F9F7EB;
+    padding: 50px 0px 50px;
+    background-color: rgba(251, 249, 242, 0.9);
+    text-align: center;
+}
+
+.mygallery h2 {
+    font-family: "Gabriela";
+    color: #1B1F23;
+    text-align: center;
+    line-height: 54px;
+    letter-spacing: -0.05em;
+    margin: 2px 0px 20px;
+    padding-top: 30px;
+}
+
+
+.mygallery {
+    font-size: 18px;
+}
+
+.videos h2 {
+    padding-bottom: 40px;
+}
+
+.view-more p {
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    color: black;
+    font-weight: 500;
+}
+
+.glyphicon-chevron-down {
+    color:#666;
+    position: relative;
+    top: 20px;
+}
+
+.glyphicon-chevron-down:hover {
+    color:#ED3E87;
+    text-decoration: none;
+}
+
+.hidden-box {
+    display: none;
+    padding-top: 20px;
+}
+
+
+
+/* CONTACT */
+
+.contact {
+    padding: 50px 0px 50px;
+}
+
+.contact h2, .contact p {
+    text-align: center;
+}
+
+.contact h2 {
+    font-family: "Gabriela";
+    color: #1B1F23;
+    line-height: 54px;
+    letter-spacing: -0.05em;
+    margin: 0px 0px 20px;
+    padding-top: 30px;
+}
+
+
+.btn-primary {
+    color: #FFF;
+    background-color: #ed3e87;
+    border-color: #ed3e87;
+}
+
+.btn-primary:hover {
+    background-color: #F477AB;
+    border-color: #F477AB;
+}
+
+.form-group {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    position: relative;
+    background-color: #ED3E87;
+    color: #555;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 68px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-top: double 5px #F9F7EB;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #dedede;
+}
+
+
+.row-icons {
+    position: relative;
+    bottom: 50px;
+}
+
+.row-icons a {
+    width: 30px;
+    padding: 5px;
+}
+
+.row-icons img:hover {
+    background-color: #C9C9C9;
+    border-radius: 5px;
+}
+
+.follow-me {
+    padding-right: 20px;
+    text-transform: uppercase;
+    color: #dedede;
+
+}
+
+.text {
+    position: relative;
+    top:30px;
+}
+
+
+/* MISCELLANEOUS */
+
+h1, h2 , h3 {
+    font-weight: 200;
+    font-size: 40px;
+    text-shadow: 1px 1px 3px #ed3e87;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+a,
+a:hover, 
+a:active, 
+a:focus {
+   outline: 0;
+}
+
+
+a.thumbnail:hover,
+ a.thumbnail:focus, 
+ a.thumbnail.active {
+    border-color: #ED3E87;
+}
+
+
+
+
+
+    
