@@ -195,11 +195,14 @@ body {
     border-color: #F477AB;
 }
 
-.form-group {
-    padding-left: 20px;
-    padding-right: 20px;
+.well {
+    background-color: #eee;
+    border: 1px solid #ED3E87;
 }
 
+.form-control {
+    border: 1px solid #ED3E87;
+}
 
 
 /* FOOTER */
@@ -225,6 +228,7 @@ body {
 .row-icons {
     position: relative;
     bottom: 50px;
+    margin: 0 auto;
 }
 
 .row-icons a {
@@ -238,16 +242,24 @@ body {
 }
 
 .follow-me {
-    padding-right: 20px;
+    padding: 0 20px 0 20px;
     text-transform: uppercase;
     color: #dedede;
 
 }
 
 .text {
-    position: relative;
-    top:30px;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.8);
+ /*   margin: 0px 80px;*/
+    line-height: 1.45;
 }
+
+.text a:hover {
+    color: white;
+}
+
 
 
 /* MISCELLANEOUS */
